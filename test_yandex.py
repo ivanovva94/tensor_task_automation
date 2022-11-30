@@ -7,7 +7,7 @@ def test_yandex_search(browser):
     page = YandexSearch(browser, link)
     page.go_to_site()
     page.is_search_field_exists()
-    page.enter_text("ишнуала")
+    page.enter_text("тензор")
     page.is_suggest_popup_exists()
     page.click_on_the_search_button()
     page.is_first_link()
